@@ -12,8 +12,8 @@ i {
   margin-right: 10px;
 }
 .navbar-logo img{
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: 105px;
 }
 .navbar-mainbg {
@@ -111,9 +111,17 @@ i {
   bottom: 0;
   left: -25px;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
+  }
+  .navbar-logo img{
+    width: 20px;
+    height: 20px;
+    margin-left: 65px;
+  }
+  .navbar-logo img{
+    margin-left: 45px;
   }
   .hori-selector {
     margin-top: 0px;
@@ -141,4 +149,13 @@ i {
     bottom: -25px;
     left: -25px;
   }
+}
+.btn-block {
+  margin-left: 20px;
+  display: block;
+  width: 50%;
+  } 
+  .img-fluid {
+    float: right;
+    vertical-align: top;
 }
