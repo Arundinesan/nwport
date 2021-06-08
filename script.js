@@ -31,7 +31,7 @@ function test(){
     setTimeout(function(){ test(); });
   });
   $(window).on('resize', function(){
-    setTimeout(function(){ test(); }, 500);
+    setTimeout(function(){ test(); }, 400);
   });
   $(".navbar-toggler").click(function(){
     setTimeout(function(){ test(); });

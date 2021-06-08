@@ -113,16 +113,14 @@ i {
 }
 @media (max-width: 992px) {
   #navbarSupportedContent ul li a {
-    padding: 12px 30px;
+    padding: 12px 35px;
   }
   .navbar-logo img{
     width: 25px;
     height: 25px;
-    margin-left: 65px;
-  }
-  .navbar-logo img{
     margin-left: 45px;
   }
+  
   .hori-selector {
     margin-top: 0px;
     margin-left: 10px;
