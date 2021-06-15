@@ -157,3 +157,13 @@ i {
     float: right;
     vertical-align: top;
 }
+.card-group .card{
+  padding: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-color: aqua;
+}
+ body .card-group h1{
+  align: center;
+}
